@@ -1,11 +1,11 @@
-<template>
-<div></div> 
-</template>
-
 <script setup>
 
 </script>
 
-<style lang='scss' scoped>
+<template>
+  <div>hello world</div>
+</template>
+
+<style lang='less' scoped>
 
 </style>
