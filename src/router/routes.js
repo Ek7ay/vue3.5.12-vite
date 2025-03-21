@@ -1,14 +1,18 @@
 import { createWebHashHistory, createRouter } from 'vue-router'
-import Drawing from '@/views/drawing-board/index.vue'
 
 const routes = [
   { 
-    path: '/',
+    path: '/', 
+    redirect: '/themes' 
+  },
+  { 
+    path: '/themes',
     component: () => import('@/views/themes/index.vue'), 
   },
   {
     path: '/drawing',
-    component: Drawing,
+    component: () => import('@/views/drawing-board/index.vue'),
+
   }
 ]
 
