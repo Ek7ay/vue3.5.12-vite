@@ -1,0 +1,13 @@
+@import './theme.less';
+// 默认主题
+.theme-default {
+  .theme();
+}
+// 深色主题
+.theme-dark {
+  .theme(White, Black, #ff6347, url('@/assets/images/autumn.png') round);
+}
+@font-color:var( --primary-color);
+@back-color: var(--back-color);
+@border-color: var(--border-color);
+@background-image: var(--background-image);
