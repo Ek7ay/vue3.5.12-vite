@@ -3,7 +3,9 @@
 </script>
 
 <template>
-  <div>
-    hello world!
-  </div>
+  <div>hello word</div>
 </template>
+
+<style lang='less' scoped>
+
+</style>
